@@ -8,8 +8,8 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
     <style>
     #panorama {
-        width: 600px;
-        height: 400px;
+        width: 100%;
+        height: 800px;
     }
     </style>
 </head>
@@ -20,13 +20,13 @@
 pannellum.viewer('panorama', {
     "type": "equirectangular",
     "autoLoad": true,
+    "hotSpotDebug": true,
     "panorama": "2.jpg","hotSpots": [
         {
             "pitch": 14.1,
             "yaw": 1.5,
             "type": "info",
-            "text": "張家祖廟外埕",
-            "URL": "https://chinyu-wang.github.io/360/2.html"
+            "text": "張家祖廟內埕"
         },
         {
             "pitch": -9.4,
