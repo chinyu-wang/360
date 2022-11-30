@@ -7,21 +7,6 @@
 
 </head>
 <body>
-	<script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
-	<div id='vrview'></div>
-	<script type="text/javascript">
-		window.addEventListener('load', onVrViewLoad);
-
-		function onVrViewLoad() {
-		  // Selector '#vrview' finds element with id 'vrview'.
-		  var vrView = new VRView.Player('#vrview', {
-		    image: '1.jpg',
-		    width: 1200,
-		    height: 800,
-		    is_stereo: true
-
-		  });
-		}
-	</script>
+	<iframe src="https://storage.googleapis.com/vrview/2.0/embed?video=1.jpg" width="800px" height="600px" frameborder="0" ></iframe>
 </body>
 </html>
